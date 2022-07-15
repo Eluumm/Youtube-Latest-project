@@ -1,0 +1,143 @@
+/* -----------------------------LETRA---------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300&family=Inconsolata:wght@700&family=Open+Sans:wght@300;400;500&display=swap');
+
+/* -----------------------------COLORES---------------------------- */
+
+:root {
+  --Color1: #dcabab;
+  --Color2: #ce6060;
+  --Color3: #bd5656;
+}
+
+/* -----------------------------CUERPO---------------------------- */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inconsolata', monospace;
+  color: rgb(10, 10, 10);
+  cursor: url(../img/cursor/cursor1-01.svg), auto;
+}
+
+button,
+a {
+  cursor: url(../img/cursor/cursor2-02.svg), auto;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgba(107, 105, 105, 0.689);
+
+  gap: 15px;
+}
+
+.form-container {
+  min-width: 250px;
+  max-width: 450px;
+
+  padding: 15px;
+  border-radius: 15px;
+
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+  background-color: #fff;
+}
+
+/* -----------------------------2DA PARTE CUERPO---------------------------- */
+
+.login {
+  height: 9%;
+
+  padding: 15px;
+  border-radius: 15px;
+
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+  background-color: #fff;
+  text-align: center;
+}
+
+p {
+  padding: 10px;
+}
+
+.llenar {
+  text-align: center;
+}
+
+/* -----------------------------INPUTS---------------------------- */
+
+.form-input {
+  width: 90%;
+  height: 80%;
+  border-radius: 7px;
+  border: none;
+  font-size: 15px;
+  background-color: var(--Color1);
+  color: #fff;
+  margin: 7px;
+  padding: 13px;
+  /* outline: green; */
+  /* border-color: blue; */
+}
+
+.form-input:focus {
+  outline: none;
+
+  border: 3px solid #cda8a8;
+}
+
+::placeholder {
+  color: #fff;
+}
+
+/* -----------------------------LOGO---------------------------- */
+
+.logo {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+}
+
+/* -----------------------------BOTONES---------------------------- */
+
+.btn-register {
+  min-width: 250px;
+
+  height: 43px;
+  margin-top: 30px;
+
+  border: none;
+  border-radius: 7px;
+
+  display: inline-block;
+
+  font-weight: bold;
+  font-size: 15px;
+
+  background-color: var(--Color2);
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: var(--Color3);
+}
